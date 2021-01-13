@@ -24,7 +24,7 @@ class CarsService{
     }
     return updated
   }
-  // REVIEW i dont know where im getting this Id from 
+  
   async delete(id) {
     let car = await dbContext.Cars.findByIdAndDelete(id)
     if(!car){
