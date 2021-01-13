@@ -5,7 +5,7 @@ const Job = new Schema(
   {
     company: {type: String, required: true},
     jobTitle : {type: String, required: true},
-    hours: {type: Number, required: true, min: 1940, max: 2022},
+    hours: {type: Number, required: true},
     rate: {type: Number, required: true},
     description: {type: String, maxlength: 144},
   },
